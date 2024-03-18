@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:
+}
+body{
+    background:#627254 ;
+
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container-box{
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}
+.container-box {
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding: 50px;
+}
+.container-box h1{
+    margin-top:5px;
+    color: #627254;
+    text-align: center;
+}
+.container-box button{
+    margin-top: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #627254;
+    color: antiquewhite;
+    margin-left: 80px;
+}
+.container-box p{
+    margin-top: 20px;
+text-align: center;
+margin-right: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-box">
+   <h1>Here we are going to sort an array</h1>
+   <button onclick="myfunc1()">Set orderwise</button>
+   <button onclick="myfunc2()">Set reversed</button>
+   <p id="demo">The Result is:</p>
+   </div>
+   </div>
+   <script>
+    let array=[30,40,50,60,70,80,87,56,48,87,32,46,87,99];
+    document.getElementById("demo").innerHTML=array;
+    function myfunc1(){
+        array.sort();
+        document.getElementById("demo").innerHTML=array;
+
+    }
+    function myfunc2 () {
+        array.reverse();
+        document.getElementById("demo").innerHTML=array;
+    }
+   </script>
+
+
+
+
+
+</body>
+</html>
+
+
